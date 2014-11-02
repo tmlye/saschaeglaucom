@@ -1,0 +1,33 @@
+body {
+    background: #404040;
+    color: #D7D0C7;
+    font-size:90%;
+    line-height:20px;
+}
+a {
+    color: #E1AA5D;
+}
+a:hover {
+    color: #F39D21;
+    text-decoration: none;
+}
+.page-header {
+    font-size: 150%;
+    margin: 40px 0 20px;
+}
+.container {
+    max-width: 800px;
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+p {
+    margin: 0 0 10px;
+}

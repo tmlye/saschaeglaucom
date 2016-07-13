@@ -1,0 +1,51 @@
+https://keybase.io/seg
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://saschaeglau.com
+  * I am seg (https://keybase.io/seg) on keybase.
+  * I have a public key ASDu8zmPETCTTJl6Q_MjQLMLJ1tyjT9IH79hqA0Ha0bw2wo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120c9a9c6675231ea8b1d2e3b57e038a7a31b8b44334779cdf0de8baa19014b405d0a",
+            "host": "keybase.io",
+            "kid": "0120eef3398f1130934c997a43f32340b30b275b728d3f481fbf61a80d076b46f0db0a",
+            "uid": "ea42cfa102bd7aac62b7cc8f32380219",
+            "username": "seg"
+        },
+        "service": {
+            "hostname": "saschaeglau.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1468440023,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1468439906,
+        "hash": "3c2e24db53c36f0a441967dc856b7f5c50897e8bb1f4c6ebaf522d46d0db928bf4656368dedaeaa271bbc51e05e717d6210b5dee57a1cd07fbe67a98e40a8c43",
+        "seqno": 521967
+    },
+    "prev": "dbf5919aa3f38f42d7ac5e6f99ab0778b6537e2ddc2998a8a07fd96defaf7829",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg7vM5jxEwk0yZekPzI0CzCydbco0/SB+/YagNB2tG8NsKp3BheWxvYWTFAvJ7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYzlhOWM2Njc1MjMxZWE4YjFkMmUzYjU3ZTAzOGE3YTMxYjhiNDQzMzQ3NzljZGYwZGU4YmFhMTkwMTRiNDA1ZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZWVmMzM5OGYxMTMwOTM0Yzk5N2E0M2YzMjM0MGIzMGIyNzViNzI4ZDNmNDgxZmJmNjFhODBkMDc2YjQ2ZjBkYjBhIiwidWlkIjoiZWE0MmNmYTEwMmJkN2FhYzYyYjdjYzhmMzIzODAyMTkiLCJ1c2VybmFtZSI6InNlZyJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoic2FzY2hhZWdsYXUuY29tIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTYifSwiY3RpbWUiOjE0Njg0NDAwMjMsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ2ODQzOTkwNiwiaGFzaCI6IjNjMmUyNGRiNTNjMzZmMGE0NDE5NjdkYzg1NmI3ZjVjNTA4OTdlOGJiMWY0YzZlYmFmNTIyZDQ2ZDBkYjkyOGJmNDY1NjM2OGRlZGFlYWEyNzFiYmM1MWUwNWU3MTdkNjIxMGI1ZGVlNTdhMWNkMDdmYmU2N2E5OGU0MGE4YzQzIiwic2Vxbm8iOjUyMTk2N30sInByZXYiOiJkYmY1OTE5YWEzZjM4ZjQyZDdhYzVlNmY5OWFiMDc3OGI2NTM3ZTJkZGMyOTk4YThhMDdmZDk2ZGVmYWY3ODI5Iiwic2Vxbm8iOjksInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAGCaxW6i884DfVAQRMOCMGmqJ8ao0J3nhhiT/g3HhA7UxKRY3jlOmVLi8UrzV9voJvvsmGDMtdtSMFj9Nr2juAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJ6lhyDGCr/WiddaSvrINdFQpA3U4ao28UMPb9YtgcIBo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/seg

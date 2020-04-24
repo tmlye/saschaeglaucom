@@ -1,0 +1,50 @@
+I hereby claim:
+
+  * I am an admin of https://saschaeglau.com
+  * I am seg (https://keybase.io/seg) on keybase.
+  * I have a public key ASDu8zmPETCTTJl6Q_MjQLMLJ1tyjT9IH79hqA0Ha0bw2wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c9a9c6675231ea8b1d2e3b57e038a7a31b8b44334779cdf0de8baa19014b405d0a",
+      "host": "keybase.io",
+      "kid": "0120eef3398f1130934c997a43f32340b30b275b728d3f481fbf61a80d076b46f0db0a",
+      "uid": "ea42cfa102bd7aac62b7cc8f32380219",
+      "username": "seg"
+    },
+    "merkle_root": {
+      "ctime": 1587739037,
+      "hash": "4022b102c8a97405731210967d77eac77ab60fbdcc752bc8847a3268d07895619fd1e66e81f78e9105c2ec0c08226b803aec0299a52e558682e995270e0f7b49",
+      "hash_meta": "30646fcb5e76490198322afd68abbd6716c042407a000f38a5c28bfd446667bf",
+      "seqno": 16038470
+    },
+    "service": {
+      "entropy": "gRpv8Q8OITND21O4TmMXVNgE",
+      "hostname": "saschaeglau.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.3.0"
+  },
+  "ctime": 1587739044,
+  "expire_in": 504576000,
+  "prev": "ce77ab263641e07a1f398e519d777d5697e2d9c8fd891d01d1313e66081eb670",
+  "seqno": 27,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg7vM5jxEwk0yZekPzI0CzCydbco0/SB+/YagNB2tG8NsKp3BheWxvYWTESpcCG8QgznerJjZB4HofOY5RnXd9Vpfi2cj9iR0B0TE+ZggetnDEIF21dW2srcRAV0hTe4XbCkPHUguWYmDXaNUyF3B/qP4gAgHCo3NpZ8RArGT4CECdgl6rnQFfSohye7g6I2L5bEZp0ruUYgTF0Y2+/8tGX+fPlA1ieiBduDGEGlBPQoJ4QlhViKppethSDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOkIhhD1ATUcS8492gBi+zPg+qcpJtmQKLvWGsXGUCsZo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/seg

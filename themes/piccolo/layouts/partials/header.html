@@ -1,0 +1,13 @@
+<header id="header">
+  <nav id="navigation">
+    <label id="nav-toggle-label" for="nav-toggle">&#9776;</label>
+    <input id="nav-toggle" type="checkbox"/>
+
+    <div id="navigation-items">
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main -}}
+        <a class="nav-link{{ if eq $currentPage.RelPermalink .URL }} active{{end}}" href="{{ .URL | absURL }}" rel="bookmark">{{ .Name }}</a>
+      {{- end }}
+    </div>
+  </nav>
+</header>

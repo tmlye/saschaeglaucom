@@ -1,0 +1,12 @@
+name = "Piccolo"
+license = "MIT"
+licenselink = "https://github.com/tmlye/piccolo/blob/master/LICENSE"
+description = "Simple, fast, usable"
+homepage = "https://github.com/tmlye/piccolo"
+tags = ['landing-page', 'fast', 'light', 'blog', 'responsive', 'clean', 'simple', 'contact-form', 'custom-themes', 'mobile', 'minimalistic', 'pages', 'resume', 'portfolio', 'theme', 'typography']
+features = ['responsive']
+min_version = "0.64.0"
+
+[author]
+  name = "Sascha Eglau"
+  homepage = "https://saschaeglau.com"

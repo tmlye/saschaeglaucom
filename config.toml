@@ -1,7 +1,6 @@
 baseURL = "https://saschaeglau.com/"
 languageCode = "en-us"
 title = "Sascha Eglau"
-theme = "piccolo"
 
 [[menu.main]]
 URL = "about"

@@ -1,0 +1,14 @@
+<main class="main">
+{{ range .Paginator.Pages }}
+  {{ .Render "summary" }}
+{{ end }}
+<div class="pagination">
+  {{ if .Paginator.HasPrev }}
+    <a class="pager prev" href="{{ .Paginator.Prev.URL }}" title="Previous Page"><span><</span></a>
+  {{ end }}
+  {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}
+  {{ if .Paginator.HasNext }}
+    <a class="pager next" href="{{ .Paginator.Next.URL }}" title="Next Page"><span>></span></a>
+  {{ end }}
+</div>
+</main>

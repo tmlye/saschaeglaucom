@@ -30,19 +30,18 @@ section {
   display: block;
   position: relative;
   max-width: 800px;
-  margin-top: 120px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
 }
 
 a {
-  color: #247BA0;
+  color: #bbdefb;
   text-decoration: none;
 }
 
 a:hover {
-  color: #70C1B3;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -65,13 +64,14 @@ ol, ul {
   vertical-align: baseline;
 }
 
+/* Header related */
+
 .icon-buttons {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  float: right;
   justify-content: flex-end;
-  margin: .2rem 0 0;
+  margin-left: auto;
 }
 
 .icon-buttons li {
@@ -96,26 +96,43 @@ ol, ul {
 .icon-buttons a:hover {
   fill: #1E1E1E;
   background-color: #f6f6f6;
+  height: auto;
 }
-
-/* Header related */
 
 #header {
-  display: block;
-  height: 40px;
-  padding: 5px 130px;
-}
-
-@media screen and (max-width: 768px){
+  display: flex;
 }
 
 /* Main section */
 
+#avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+#avatar img {
+  border-radius: 50%;
+  width: auto;
+  height: auto;
+  max-width: 175px;
+  max-height: 175px;
+}
+
+#introduction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
 .section-header {
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   text-align: center;
+  margin: 30px 0;
 }
 
 .center-standout {
@@ -123,21 +140,34 @@ ol, ul {
   font-family: 'Rubik', sans-serif;
 }
 
-.text-center {
-  text-align: center;
+.pagination {
+  font-family: 'Rubik';
+  font-size: .914285em;
+  margin: 50px 0;
 }
 
-.call-to-action {
-  display: inline-block;
-  margin: 20px;
-  font-size: 20px;
+/* Summary */
+
+.summary a {
+  color: #f6f6f6;
+}
+
+.summary h2 {
+  font-size: 24px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.summary p {
   font-family: 'Rubik', sans-serif;
-  padding: 7px 17px;
-  border-radius: 3px;
-  color: #FFFFFF;
-  background-color: #247BA0;
+  margin-top: 10px;
+  overflow: auto;
 }
 
-a.call-to-action:hover  {
-  color: #FFFFFF;
+.summary small {
+  display: block;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  margin-top: 20px;
+  color: #ccc;
 }

@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <title>{{ .Title }}</title>
+    <title>{{ .Title }}</title>
 
-      {{ $styles := resources.Get "css/style.css" | minify }}
-      <link rel="stylesheet" href="{{ $styles.Permalink }}">
-    </head>
-    <body>
-        {{- partial "header.html" . -}}
-        {{- block "main" . }}{{- end }}
-        {{- partial "footer.html" . -}}
+    {{ $styles := resources.Get "css/style.css" | minify }}
+    <link rel="stylesheet" href="{{ $styles.Permalink }}">
+  </head>
+  <body itemscope itemtype="https://schema.org/WebPage">
+    {{- partial "header.html" . -}}
+    {{- block "main" . }}{{- end }}
+    {{- partial "footer.html" . -}}
 
-        {{ $script := resources.Get "js/app.js" | minify}}
-        <script src="{{ $script.Permalink }}"></script>
-    </body>
+    {{ $script := resources.Get "js/app.js" | minify}}
+    <script src="{{ $script.Permalink }}"></script>
+  </body>
 </html>

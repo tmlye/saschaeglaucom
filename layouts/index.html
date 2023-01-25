@@ -1,0 +1,15 @@
+{{ define "main" }}
+<section>
+  <div id="avatar">
+    <img src="/images/avatar.jpg" alt="Sascha Eglau" width="150" height="150">
+  </div>
+  <div id="introduction">
+    <p class="center-standout">Hi! My name is Sascha and this is where I live on the internet. This site is still under construction, check the top right corner for my profiles and email.</p>
+  </div>
+  <!--
+  <h1 class="section-header">Recent Updates</h1>
+  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
+  {{ partial "posts/main.html" (dict "Paginator" $paginator) }}
+  -->
+</section>
+{{ end }}

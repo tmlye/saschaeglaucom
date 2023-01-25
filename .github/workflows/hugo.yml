@@ -1,0 +1,56 @@
+name: Deploy Hugo site to S3
+
+on:
+  push:
+    branches: ["master"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.108.0
+    steps:
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Build with Hugo
+        run: hugo --minify
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-result
+          path: public
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Retrieve Build Result
+        uses: actions/download-artifact@v2
+        with:
+          name: build-result
+      - shell: bash
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.aws_access_key_id }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.aws_secret_access_key }}
+          AWS_DEFAULT_REGION: us-east-1
+          BUCKET_NAME: ${{ secrets.bucket_name }}
+        run: |
+          ls
+          cd public
+          ls
+          aws s3 sync . s3://$BUCKET_NAME/ --exclude "files" --exclude "keybase.txt"

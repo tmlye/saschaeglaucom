@@ -1,0 +1,18 @@
+baseURL = "https://saschaeglau.com/"
+languageCode = "en-us"
+title = "Sascha Eglau"
+
+[[menu.main]]
+URL = "about"
+name = "About"
+weight = 2
+
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 3
+
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 5

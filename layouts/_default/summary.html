@@ -1,0 +1,18 @@
+<article class="summary" itemscope itemtype="https://schema.org/CreativeWork">
+  <a rel="bookmark" itemprop="url" href="{{ .Permalink }}">
+    <h2 itemprop="headline">{{ .Title }}</h2>
+    {{ if .Summary }}
+      <p itemprop="abstract">
+        {{- .Summary -}}
+      </p>
+    {{ end }}
+  </a>
+  <small>
+  {{ if .PublishDate -}}<time itemprop="datePublished" datetime="{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" }}">Last updated on {{ .PublishDate.Format "Jan 2, 2006" }}</time>{{- end }}
+  {{ with .Params.categories -}}
+    {{ range first 1 . -}}
+      <span>- {{ . }}</span>
+    {{- end }}
+  {{- end }}
+  </small>
+</article>

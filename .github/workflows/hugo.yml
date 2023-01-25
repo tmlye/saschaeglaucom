@@ -40,7 +40,7 @@ jobs:
     needs: build
     steps:
       - name: Retrieve Build Result
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: build-result
       - shell: bash
@@ -50,7 +50,5 @@ jobs:
           AWS_DEFAULT_REGION: us-east-1
           BUCKET_NAME: ${{ secrets.bucket_name }}
         run: |
-          ls
-          cd public
           ls
           aws s3 sync . s3://$BUCKET_NAME/ --exclude "files" --exclude "keybase.txt"
